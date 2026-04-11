@@ -1,0 +1,42 @@
+/* Legacy utility classes — prefer `Page` / theme in new UI. Kept for gradual migration & Storybook. */
+.nx-product-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+@media (min-width: 600px) {
+  .nx-product-page {
+    padding: 3rem 1.75rem 5rem;
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .nx-product-page {
+    padding: 3.5rem 2.25rem 5.5rem;
+    gap: 3.5rem;
+  }
+}
+
+.nx-page-title {
+  margin: 0;
+}
+
+.nx-page-subtitle {
+  margin: 0.5rem 0 0;
+  max-width: 44rem;
+  color: var(--mui-palette-text-secondary);
+  line-height: 1.65;
+}
+
+.nx-muted {
+  color: var(--mui-palette-text-secondary);
+}
+
+.nx-product-surface {
+  border-radius: 14px;
+}

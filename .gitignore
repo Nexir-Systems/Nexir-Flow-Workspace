@@ -1,0 +1,65 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+build
+out
+
+# Environment (keep .env.example tracked if you add one)
+.env
+.env.*
+!.env.example
+
+# Vite
+.vite
+*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests & coverage (Vitest, Playwright)
+coverage
+*.lcov
+playwright-report
+test-results
+.vitest
+
+# Storybook
+storybook-static
+storybook.log
+*storybook.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Tooling cache
+.eslintcache
+.prettiercache
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary / misc
+*.tmp
+*.temp
+.cache
