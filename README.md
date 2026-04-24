@@ -1,11 +1,28 @@
 # Nexir Flow Workspace
 
+## Live preview
+
+<p align="center">
+  <a href="https://nexir-systems.github.io/Nexir-Flow-Workspace/">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-live-0969da?style=for-the-badge&logo=github&logoColor=white" alt="Open the app on GitHub Pages" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://nexir-systems.github.io/Nexir-Flow-Workspace/"><strong>nexir-systems.github.io/Nexir-Flow-Workspace</strong></a>
+</p>
+
+<p align="center"><sub>Production build from <code>main</code> (GitHub Actions → Pages). Same SPA as locally; assets are served under the repository path.</sub></p>
+
+---
+
 React **19** + Vite **8** SPA: a **product-style shell** with mock auth, entities, favorites, settings, and local persistence—useful as a reference workspace or onboarding playground. **UI copy is English-only.** This is the React sibling of the Angular “Core Workspace” reference; behavior is intended to match **[docs/REACT_MIGRATION_SPEC.md](docs/REACT_MIGRATION_SPEC.md)**.
 
 ## Quick start
 
 | Step | Command / action |
 | ---- | ---------------- |
+| 0 | **Try it live:** open **[GitHub Pages build](https://nexir-systems.github.io/Nexir-Flow-Workspace/)** (no install) |
 | 1 | `npm install` |
 | 2 | `npm run dev` → open `http://localhost:5173` |
 | 3 | Register a test account at `/register` or use **Application map** (`/workspace-map`) for a route overview |
